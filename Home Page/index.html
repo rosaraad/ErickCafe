@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>خانه</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
   <link rel="stylesheet" href="src/css/output.css">
 </head>
 
@@ -12,7 +13,7 @@
   <!--wrapper-->
   <div class="wrapper lg:w-max-[1728px] w-max-[390px] mx-auto">
     <!--header-->
-    <div class="header w-full lg:h-[744px] h-[587px] mx-auto  bg-[#FFF8F5] lg:px-[100px] px-[20px]">
+    <div class="header lg:w-[1728px] w-[390px] lg:h-[744px] h-[587px] mx-auto  bg-[#FFF8F5] lg:px-[100px] px-[20px]">
       <div class="header-top w-full h-[120px] flex justify-between items-center">
         <div class="top-right lg:flex hidden items-center gap-x-[9px]">
           <div class="number" dir="ltr">
@@ -22,8 +23,11 @@
           <div class="coffee-logo w-[50px] h-[50px] bg-[#F2E5DA] flex justify-center items-center rounded-[26px]"><img
               class="w-[25px] h-[25px]" src="src/images/ph_coffee-bean-fill.svg" alt=""></div>
         </div>
-        <div class="top-menu lg:hidden flex w-[35px] h-[35px] bg-[#F2E5DA] justify-center items-center rounded-[23px]"><img class="w-[24px] h-[24px]" src="src/images/menu.svg" alt=""></div>
-        <a href=""><img class="top-logo  lg:w-[147px] lg:h-[51px] w-[100px] h-[34.5px]" src="src/images/logo.svg"></img></a>
+        <div class="top-menu lg:hidden flex w-[35px] h-[35px] bg-[#F2E5DA] justify-center items-center rounded-[23px]">
+          <img class="w-[24px] h-[24px]" src="src/images/menu.svg" alt="">
+        </div>
+        <a href=""><img class="top-logo  lg:w-[147px] lg:h-[51px] w-[100px] h-[34.5px]"
+            src="src/images/logo.svg"></img></a>
         <div class="top-left lg:flex hidden items-center gap-x-[12px]">
           <div
             class="top-login w-[132px] h-[50px] rounded-[100px] border-[1px] border-black font-yekan text-[16px] flex justify-center items-center font-semibold">
@@ -40,42 +44,92 @@
         class="header-center lg:flex hidden mx-auto w-max-[1526px] h-[68px] rounded-[100px] pr-[50px] pl-[14px] bg-[#28221E] text-[#FFF8F5] text-[16px] items-center justify-between">
 
         <ul class="menu menu-horizontal gap-x-[50px] font-yekan font-normal">
-          <li><a>صفحه اصلی</a></li>
+          <li><a href="">صفحه اصلی</a></li>
           <li>
             <details>
               <summary>لیست محصولات</summary>
               <ul class="p-2 bg-base-100 w-40 z-1 text-black">
-                <li><a>قهوه سازها</a></li>
-                <li><a>آسیاب قهوه</a></li>
-                <li><a>ابزار باریستا</a></li>
-                <li><a>دم آوری قهوه</a></li>
-                <li><a>دم آوری قهوه</a></li>
-                <li><a>کرپ ساز صنعتی</a></li>
-                <li><a>بویلر آب جوش</a></li>
-                <li><a>سماور صنعتی</a></li>
-                <li><a>شو کیک</a></li>
+                <li><a href="">قهوه سازها</a></li>
+                <li><a href="">آسیاب قهوه</a></li>
+                <li><a href="">ابزار باریستا</a></li>
+                <li><a href="">دم آوری قهوه</a></li>
+                <li><a href="">دم آوری قهوه</a></li>
+                <li><a href="">کرپ ساز صنعتی</a></li>
+                <li><a href="">بویلر آب جوش</a></li>
+                <li><a href="">سماور صنعتی</a></li>
+                <li><a href="">شو کیک</a></li>
               </ul>
             </details>
           </li>
-          <li><a>خدمات</a></li>
-          <li><a>آموزش ها</a></li>
-          <li><a>درباره ما</a></li>
-          <li><a>تماس با ما</a></li>
+          <li><a href="">خدمات</a></li>
+          <li><a href="">آموزش ها</a></li>
+          <li><a href="">درباره ما</a></li>
+          <li><a href="">تماس با ما</a></li>
         </ul>
         <a href="">
           <div
-            class="header-insta w-[128px] h-[40px] rounded-[37px] bg-[#534e4c] flex justify-center items-center gap-x-[5px] text-[16px] font-semibold">
+            class="header-insta w-[128px] h-[40px] rounded-[37px] bg-[#534e4c] text-[16px] font-semibold flex justify-between items-center px-[12px]">
             Erik.Cafe <img class="w-[24px] h-[24px]" src="src/images/instagram.svg" alt=""></div>
         </a>
       </div>
-      <div class="header-bottom">
-        <div class="header-banner-right"></div>
-        <div class="header-banner-left"></div>
+      <div
+        class="header-bottom lg:mt-[37px] lg:w-[1526px] w-[376px] lg:h-[441px] h-[427px] lg:left-0 left-[13px] relative">
+        <div class="header-banner-right lg:w-[456px] w-[376px] h-full rounded-[20px] bg-[#28221E] lg:right-0">
+          <div
+            class="font-msmadi text-[20px] text-[#FFFFFF] absolute lg:top-[85px] top-[25px] lg:right-[65px] right-[154px]">
+            Erick Coffee</div>
+          <img
+            class="absolute lg:w-[48px] w-[25px] lg:h-[40px] h-[21px] lg:top-[120px] top-[55px] lg:right-[330px] right-[248px]"
+            src="src/images/leaf-green.svg" alt="">
+          <img
+            class="absolute lg:w-[290px] w-[141px] lg:h-[60px] h-[50px] lg:top-[135px] top-[60px] lg:right-[58px] right-[117px]"
+            src="src/images/اریک کافه.svg" alt="">
+          <div
+            class="absolute font-yekan lg:text-[20px] text-[12px] text-[#F2E5DA] lg:top-[217px] top-[115px] lg:right-[55px] right-[84px]">
+            کامل ترین تجهیزات کافه و
+            رستوران در ایران</div>
+          <a href="">
+            <div
+              class="absolute font-yekan lg:w-[232px] w-[174px] lg:h-[50px] h-[40px] pr-[26px] pl-[18px] bg-[#534e4c] text-[#FFFFFF] lg:top-[288px] top-[160px] lg:right-[58px] right-[101px] rounded-[100px] flex justify-between items-center lg:text-[16px] text-[12px]">
+              مشاهده محصولات<img class="lg:w-[24px] w-[18px] lg:h-[24px] h-[18px]" src="src/images/arrow-left.png"
+                alt=""></div>
+          </a>
+        </div>
+        <div
+          class="header-banner-left lg:w-[1044px] w-[341px] lg:h-[441px] h-[165px] lg:rounded-[20px] rounded-[7.79px] overflow-hidden absolute lg:left-0 lg:bottom-0 left-[17px] bottom-[31px]">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </div>
+
     </div>
     <!--end header-->
   </div>
   <!--end wrapper-->
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+    });
+  </script>
 
 </body>
 

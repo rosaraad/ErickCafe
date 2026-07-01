@@ -6,6 +6,37 @@
     src: url(../font/iranyekanwebregular\(fanum\).ttf);
 }
 
-@theme{
+@theme {
     --font-yekan: Yekan;
+}
+
+@font-face {
+    font-family: MsMadi;
+    src: url(../font/MsMadi-Regular.ttf);
+}
+
+@theme {
+    --font-msmadi: MsMadi;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
