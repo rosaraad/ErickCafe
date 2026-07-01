@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+    font-family: Yekan;
+    src: url(../font/iranyekanwebregular\(fanum\).ttf);
+}
+
+@theme{
+    --font-yekan: Yekan;
+}
