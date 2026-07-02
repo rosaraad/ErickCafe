@@ -75,8 +75,7 @@
       </div>
       <div
         class="header-bottom lg:mt-[37px] w-full max-w-[1526px] h-[427px] lg:h-[441px] flex flex-col lg:flex-row gap-4 relative">
-        <div
-          class="header-banner-right w-full lg:w-[456px] h-full rounded-[20px] bg-[#28221E] shrink-0">
+        <div class="header-banner-right w-full lg:w-[456px] h-full rounded-[20px] bg-[#28221E]">
           <div
             class="font-msmadi text-[20px] text-[#FFFFFF] absolute lg:top-[85px] top-[25px] lg:right-[65px] right-[130px]">
             Erick Coffee</div>
@@ -98,8 +97,7 @@
           </a>
         </div>
         <!--slider desktop-->
-        <div
-          class="header-banner-left hidden lg:block flex-1 w-full lg:h-[441px] rounded-[20px] overflow-hidden">
+        <div class="header-banner-left hidden lg:block flex-1 w-full lg:h-[441px] rounded-[20px] overflow-hidden">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
@@ -112,20 +110,54 @@
         <!--end slider desktop-->
         <!--slider mobile-->
         <div
-          class="header-banner-left w-[320px] lg:hidden absolute top-[230.19px] right-3.5 h-[165px] rounded-[7.79px] overflow-hidden">
+          class="header-banner-left w-[341px] lg:hidden absolute top-[225px] right-1 h-[180px] rounded-[7.79px] overflow-hidden">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
               <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
               <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination !bottom-[-5px]"></div>
           </div>
         </div>
       </div>
       <!--end slider mobile-->
     </div>
     <!--end header-->
+    <!--slider-->
+    <div
+      class="swiper2 lg:w-full lg:max-w-[1726px] w-[390px] mx-auto lg:h-[59px] h-[31px] bg-[#F2E5DA] overflow-hidden">
+      <div class="swiper2 mySwiper2 w-full h-full ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper2-img" src="src/images/coffee-logo.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <!--end slider-->
+    <!--category-->
+    <div class="category mt-[73px] lg:max-w-[1526px] max-w-[390px] mx-auto w-full">
+      <div class="category-top w-fit flex items-center gap-x-[9px]">
+        <img class="lg:w-[50px] lg:h-[50px] w-[41px] h-[41px]" src="src/images/ph_coffee-bean-fill.svg" alt="">
+        <div>
+          <div class="font-yekan lg:text-[30px] text-[16px] font-bold text-[#28221E]">دسته بندی محصولات</div>
+          <div class="mt-[10px] font-yekan lg:text-[16px] text-[12px] font-normal text-[#28221E]">از میان بهترین ها ،
+            بهترین هارا برای شما فراهم کرده ایم!</div>
+        </div>
+      </div>
+      <div class="category-bottom"></div>
+    </div>
+    <!--end category-->
   </div>
   <!--end wrapper-->
 
@@ -144,6 +176,21 @@
         disableOnInteraction: false,
       },
       loop: true,
+    });
+
+    var swiper2 = new Swiper('.mySwiper2', {
+      slidesPerView: 9,
+      centeredSlides: false,
+      spaceBetween: 5,
+      grabCursor: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 4,
+        },
+        1024: {
+          slidesPerView: 9,
+        }
+      }
     });
   </script>
 

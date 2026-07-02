@@ -26,17 +26,17 @@
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #444;
+    text-align: right;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.swiper2-img {
+    @apply lg:w-[113px] lg:h-[25px] w-[59px] h-[13px];
 }
