@@ -11,9 +11,10 @@
 
 <body class="w-screen h-screen">
   <!--wrapper-->
-  <div class="wrapper lg:w-max-[1728px] w-max-[390px] mx-auto">
+  <div class="wrapper w-full max-w-[1728px] mx-auto">
     <!--header-->
-    <div class="header lg:w-[1728px] w-[390px] lg:h-[744px] h-[587px] mx-auto  bg-[#FFF8F5] lg:px-[100px] px-[20px]">
+    <div
+      class="header lg:w-full lg:max-w-[1728px] w-[390px] lg:h-[744px] h-[587px] mx-auto  bg-[#FFF8F5] lg:px-[100px] px-[20px]">
       <div class="header-top w-full h-[120px] flex justify-between items-center">
         <div class="top-right lg:flex hidden items-center gap-x-[9px]">
           <div class="number" dir="ltr">
@@ -41,7 +42,7 @@
 
       </div>
       <div
-        class="header-center lg:flex hidden mx-auto w-max-[1526px] h-[68px] rounded-[100px] pr-[50px] pl-[14px] bg-[#28221E] text-[#FFF8F5] text-[16px] items-center justify-between">
+        class="header-center lg:flex hidden mx-auto w-full max-w-[1526px]  h-[68px] rounded-[100px] pr-[50px] pl-[14px] bg-[#28221E] text-[#FFF8F5] text-[16px] items-center justify-between">
 
         <ul class="menu menu-horizontal gap-x-[50px] font-yekan font-normal">
           <li><a href="">صفحه اصلی</a></li>
@@ -73,30 +74,45 @@
         </a>
       </div>
       <div
-        class="header-bottom lg:mt-[37px] lg:w-[1526px] w-[376px] lg:h-[441px] h-[427px] lg:left-0 left-[13px] relative">
-        <div class="header-banner-right lg:w-[456px] w-[376px] h-full rounded-[20px] bg-[#28221E] lg:right-0">
+        class="header-bottom lg:mt-[37px] w-full max-w-[1526px] h-[427px] lg:h-[441px] flex flex-col lg:flex-row gap-4 relative">
+        <div
+          class="header-banner-right w-full lg:w-[456px] h-full rounded-[20px] bg-[#28221E] shrink-0">
           <div
-            class="font-msmadi text-[20px] text-[#FFFFFF] absolute lg:top-[85px] top-[25px] lg:right-[65px] right-[154px]">
+            class="font-msmadi text-[20px] text-[#FFFFFF] absolute lg:top-[85px] top-[25px] lg:right-[65px] right-[130px]">
             Erick Coffee</div>
           <img
-            class="absolute lg:w-[48px] w-[25px] lg:h-[40px] h-[21px] lg:top-[120px] top-[55px] lg:right-[330px] right-[248px]"
+            class="absolute lg:w-[48px] w-[25px] lg:h-[40px] h-[21px] lg:top-[120px] top-[55px] lg:right-[330px] right-[230px]"
             src="src/images/leaf-green.svg" alt="">
           <img
-            class="absolute lg:w-[290px] w-[141px] lg:h-[60px] h-[50px] lg:top-[135px] top-[60px] lg:right-[58px] right-[117px]"
+            class="absolute lg:w-[290px] w-[141px] lg:h-[60px] h-[50px] lg:top-[135px] top-[60px] lg:right-[58px] right-[100px]"
             src="src/images/اریک کافه.svg" alt="">
           <div
-            class="absolute font-yekan lg:text-[20px] text-[12px] text-[#F2E5DA] lg:top-[217px] top-[115px] lg:right-[55px] right-[84px]">
+            class="absolute font-yekan lg:text-[20px] text-[12px] text-[#F2E5DA] lg:top-[217px] top-[115px] lg:right-[55px] right-[70px]">
             کامل ترین تجهیزات کافه و
             رستوران در ایران</div>
           <a href="">
             <div
-              class="absolute font-yekan lg:w-[232px] w-[174px] lg:h-[50px] h-[40px] pr-[26px] pl-[18px] bg-[#534e4c] text-[#FFFFFF] lg:top-[288px] top-[160px] lg:right-[58px] right-[101px] rounded-[100px] flex justify-between items-center lg:text-[16px] text-[12px]">
+              class="absolute font-yekan lg:w-[232px] w-[174px] lg:h-[50px] h-[40px] pr-[26px] pl-[18px] bg-[#534e4c] text-[#FFFFFF] lg:top-[288px] top-[160px] lg:right-[58px] right-[90px] rounded-[100px] flex justify-between items-center lg:text-[16px] text-[12px]">
               مشاهده محصولات<img class="lg:w-[24px] w-[18px] lg:h-[24px] h-[18px]" src="src/images/arrow-left.png"
                 alt=""></div>
           </a>
         </div>
+        <!--slider desktop-->
         <div
-          class="header-banner-left lg:w-[1044px] w-[341px] lg:h-[441px] h-[165px] lg:rounded-[20px] rounded-[7.79px] overflow-hidden absolute lg:left-0 lg:bottom-0 left-[17px] bottom-[31px]">
+          class="header-banner-left hidden lg:block flex-1 w-full lg:h-[441px] rounded-[20px] overflow-hidden">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+              <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!--end slider desktop-->
+        <!--slider mobile-->
+        <div
+          class="header-banner-left w-[320px] lg:hidden absolute top-[230.19px] right-3.5 h-[165px] rounded-[7.79px] overflow-hidden">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="src/images/Frame 11.png" alt=""></div>
@@ -107,7 +123,7 @@
           </div>
         </div>
       </div>
-
+      <!--end slider mobile-->
     </div>
     <!--end header-->
   </div>
