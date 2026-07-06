@@ -24,8 +24,25 @@
           <div class="coffee-logo w-[50px] h-[50px] bg-[#F2E5DA] flex justify-center items-center rounded-[26px]"><img
               class="w-[25px] h-[25px]" src="src/images/ph_coffee-bean-fill.svg" alt=""></div>
         </div>
-        <div class="top-menu lg:hidden flex w-[35px] h-[35px] bg-[#F2E5DA] justify-center items-center rounded-[23px]">
-          <img class="w-[24px] h-[24px]" src="src/images/menu.svg" alt="">
+        <div class="top-menu lg:hidden flex justify-center items-center">
+          <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button"
+                  class="btn btn-ghost btn-circle w-[35px] h-[35px] bg-[#F2E5DA] flex justify-center items-center rounded-[23px]">
+                  <img class="w-[24px] h-[24px]" src="src/images/menu.svg" alt="">
+                </div>
+                <ul tabindex="-1"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a href="">خدمات</a></li>
+                  <li><a href="">لیست محصولات</a></li>
+                  <li><a href="">آموزش ها</a></li>
+                  <li><a href="">درباره ما</a></li>
+                  <li><a href="">تماس با ما</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <a href=""><img class="top-logo  lg:w-[147px] lg:h-[51px] w-[100px] h-[34.5px]"
             src="src/images/logo.svg"></img></a>
@@ -283,7 +300,91 @@
         class="lg:text-[30px] text-[18px] font-semibold text-white w-fit mx-auto lg:top-[47px] top-[27px] left-1/2 -translate-x-1/2 absolute">
         تخفیفات ویژه</div>
       <div
-        class="takhfifat-center bg-white lg:w-[1183px] lg:h-[572px] w-[311px] h-[426px] lg:rounded-[20px] rounded-[12px] lg:border-[10px] border-[3px] shadow-[30%] absolute lg:top-[131px] top-[74px] left-1/2 -translate-x-1/2">
+        class="takhfifat-center lg:px-[81px] bg-white lg:w-[1183px] lg:h-[600px] w-[311px] h-[426px] border-[1px] border-gray-400 lg:rounded-[20px] rounded-[12px] lg:border-[10px] border-[#000000] shadow-[30%] absolute lg:top-[131px] top-[74px] left-1/2 -translate-x-1/2">
+        <div
+          class="takhfifat-category overflow-x-auto whitespace-nowrap lg:mt-[46px] mt-[23px] w-full h-fit border-b-[#E9E9E8] border-b-[1px]">
+          <div class="flex flex-nowrap lg:justify-around gap-x-[30px] items-center">
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[20px] text-[14px] text-[#28221E] pb-[17px] lg:mr-0 mr-[15px]">دسته بندی ها</div>
+            </a>
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[16px] text-[12px] text-[#9B9895] pb-[17px]">دانه قهوه</div>
+            </a>
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[16px] text-[12px] text-[#9B9895] pb-[17px]">آسیاب قهوه</div>
+            </a>
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[16px] text-[12px] text-[#9B9895] pb-[17px]">ابزار باریستا</div>
+            </a>
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[16px] text-[12px] text-[#9B9895] pb-[17px]">بویلر آب جوش</div>
+            </a>
+            <a href="">
+              <div class="w-fit font-yekan lg:text-[16px] text-[12px] text-[#9B9895] pb-[17px] lg:ml-0 ml-[15px]">تجهیزات کافه و رستوران
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="swiper3 mySwiper3 lg:mt-[44px] px-[28px] mt-[22px]">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide w-[255px] lg:w-[321px] h-[320px] lg:h-[410px] relative">
+              <img src="src/images/coffee-1.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[129px] lg:h-[210px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+            <div class="swiper-slide relative">
+              <img src="src/images/coffee-2.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[129px] lg:h-[210px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+            <div class="swiper-slide relative">
+              <img src="src/images/coffee-3.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[197px] lg:h-[249px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+            <div class="swiper-slide relative">
+              <img src="src/images/coffee-1.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[129px] lg:h-[210px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+            <div class="swiper-slide relative">
+              <img src="src/images/coffee-2.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[129px] lg:h-[210px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+            <div class="swiper-slide relative">
+              <img src="src/images/coffee-3.png" class="absolute lg:top-[40px] top-[42px] left-1/2 -translate-x-1/2 lg:w-[197px] lg:h-[249px] w-[85px] h-[137px]" alt="">
+              <div class="item-title">دانه قهوه باکسی برند Boxilian</div>
+              <div class="item-category">دانه قهوه</div>
+              <div class="price-before"></div>
+              <div class="price-after"><img src="" alt="">240,000</div>
+              <div class="item-promotion">۲۰٪</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper3-button-prev lg:w-[40px] lg:h-[40px] flex items-center justify-center lg:bg-[#F2E5DA] rounded-[14px] absolute lg:top-[312px] lg:right-[22px] top-[227px] right-[2px]">
+          <img src="src/images/arrow-right.svg" class="lg:w-[24px] lg:h-[24px] w-[19px] h-[19px]" alt="">
+        </div>
+        <div
+          class="swiper3-button-next lg:w-[40px] lg:h-[40px] flex items-center justify-center lg:bg-[#F2E5DA] rounded-[14px] absolute lg:top-[312px] lg:left-[22px] top-[227px] left-[2px]">
+          <img src="src/images/arrow-left.svg" class="lg:w-[24px] lg:h-[24px] w-[19px] h-[19px]" alt="">
+        </div>
       </div>
     </div>
     <!--end takhfifat-->
@@ -307,7 +408,7 @@
       loop: true,
     });
 
-    var swiper2 = new Swiper('.mySwiper2', {
+    const swiper2 = new Swiper('.mySwiper2', {
       slidesPerView: 9,
       centeredSlides: false,
       spaceBetween: 5,
@@ -321,6 +422,26 @@
         }
       }
     });
+
+    const swiper3 = new Swiper('.mySwiper3', {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      grabCursor: true,
+      navigation: {
+        nextEl: '.swiper3-button-next',
+        prevEl: '.swiper3-button-prev',
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
+      }
+    });
+
+
   </script>
 
 </body>

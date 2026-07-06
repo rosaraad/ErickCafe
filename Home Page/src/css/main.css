@@ -40,3 +40,60 @@
 .swiper2-img {
     @apply lg:w-[113px] lg:h-[25px] w-[59px] h-[13px];
 }
+
+.mySwiper3 {
+    overflow: hidden;
+    position: relative;
+    
+
+    .swiper-slide {
+        width: 321px;
+        height: 410px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 1px solid #E9E9E8;
+    }
+
+    @media (max-width: 640px) {
+        .swiper-slide {
+            width: 255px;
+            height: 320px !important;
+        }
+    }
+}
+
+@layer components {
+
+    .item-title {
+        @apply font-yekan text-[16px] text-[#28221E] absolute lg:top-[292px] lg:right-[20px] top-[211px] right-[12px];
+    }
+
+    .item-category {
+        @apply font-yekan text-[14px] text-[#9B9895] absolute lg:top-[327px] lg:right-[20px] top-[240px] right-[12px];
+    }
+
+    .price-before {
+        @apply font-yekan text-[16px] text-[#28221E] absolute lg:top-[351px] lg:right-[69px] top-[271px] right-[1171x];
+    }
+
+    .price-after {
+        @apply font-yekan text-[20px] text-[#9E624C] absolute lg:top-[373px] lg:right-[203px] top-[288px] right-[157px];
+    }
+
+    .item-promotion {
+        @apply font-yekan lg:text-[20px] text-[15px] text-white absolute top-[16px] left-[16px] lg:rounded-[31px] rounded-[23.5px] bg-[#28221E] lg:px-[14px] px-[10.5px] lg:py-[3px] py-[2px];
+    }
+
+}
+
+.takhfifat-category::-webkit-scrollbar {
+    display: none;
+}
+
+.takhfifat-category {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
