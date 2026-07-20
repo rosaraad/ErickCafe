@@ -68,25 +68,53 @@
 }
 
 @layer components {
-
-    .item-title {
-        @apply font-yekan text-[16px] text-[#28221E] absolute lg:top-[292px] lg:right-[20px] top-[211px] right-[12px];
+    .takhfif-title {
+        @apply font-yekan font-bold lg:text-[16px] text-[14px] text-[#28221E] absolute lg:top-[292px] lg:right-[20px] top-[211px] right-[12px];
     }
 
-    .item-category {
-        @apply font-yekan text-[14px] text-[#9B9895] absolute lg:top-[327px] lg:right-[20px] top-[240px] right-[12px];
+    .takhfif-category {
+        @apply font-yekan lg:text-[14px] text-[12px] text-[#9B9895] absolute lg:top-[327px] lg:right-[20px] top-[240px] right-[12px];
     }
 
-    .price-before {
+    .takhfif-before {
+        @apply font-yekan text-[16px] text-[#28221E] absolute lg:top-[351px] lg:right-[69px] top-[271px] right-[171px];
+    }
+
+    .takhfif-after {
+        @apply font-yekan font-semibold lg:text-[20px] text-[15px] text-[#9E624C] absolute lg:top-[365px] lg:right-[210px] top-[285px] right-[180px];
+    }
+
+    .takhfif-toman {
+        @apply font-yekan  lg:text-[14px] text-[11px] text-[#9E624C] absolute lg:top-[369px] lg:right-[170px] top-[288px] right-[147px];
+    }
+
+    .takhfif-promotion {
+        @apply font-yekan lg:text-[20px] text-[15px] text-white absolute top-[16px] left-[16px] lg:rounded-[31px] rounded-[23.5px] bg-[#28221E] lg:px-[14px] px-[10.5px] lg:py-[3px] py-[2px];
+    }
+
+
+    .porforoosh-title {
+        @apply font-yekan font-bold lg:text-[16px] text-[12px] text-[#28221E] absolute lg:top-[292px] lg:right-[20px] top-[127px] right-[10px];
+    }
+
+    .porforoosh-category {
+        @apply font-yekan text-[14px] text-[#9B9895] lg:absolute hidden lg:top-[327px] lg:right-[20px] top-[240px] right-[12px];
+    }
+
+    .porforoosh-before {
         @apply font-yekan text-[16px] text-[#28221E] absolute lg:top-[351px] lg:right-[69px] top-[271px] right-[1171x];
     }
 
-    .price-after {
-        @apply font-yekan text-[20px] text-[#9E624C] absolute lg:top-[373px] lg:right-[203px] top-[288px] right-[157px];
+    .porforoosh-after {
+        @apply font-yekan font-semibold lg:text-[20px] text-[14px] text-[#9E624C] absolute lg:top-[370px] lg:right-[233px] top-[175px] right-[104px];
     }
 
-    .item-promotion {
-        @apply font-yekan lg:text-[20px] text-[15px] text-white absolute top-[16px] left-[16px] lg:rounded-[31px] rounded-[23.5px] bg-[#28221E] lg:px-[14px] px-[10.5px] lg:py-[3px] py-[2px];
+    .porforoosh-toman {
+        @apply font-yekan  lg:text-[14px] text-[8px] text-[#9E624C] absolute lg:top-[373px] lg:right-[195px] top-[180px] right-[82px];
+    }
+
+    .porforoosh-promotion {
+        @apply font-yekan lg:text-[20px] text-[15px] text-white lg:absolute hidden top-[16px] left-[16px] lg:rounded-[31px] rounded-[23.5px] bg-[#28221E] lg:px-[14px] px-[10.5px] lg:py-[3px] py-[2px];
     }
 
 }
