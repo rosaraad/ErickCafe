@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Yekan;
+    src: url(../font/iranyekanwebregular\(fanum\).ttf);
+}
+
+@theme {
+    --font-yekan: Yekan;
+}
