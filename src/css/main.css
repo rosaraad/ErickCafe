@@ -1,1 +1,146 @@
 @import "tailwindcss";
+
+
+@keyframes leftLine {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+
+
+@keyframes rightLine {
+
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
+
+@keyframes bean {
+
+    from {
+        opacity: 0;
+        transform: translateY(-80px) rotate(-90deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+
+}
+
+
+
+@keyframes button {
+
+    from {
+        opacity: 0;
+        transform: translatex(-25%, -80px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(calc(-50% + 70px));
+    }
+
+}
+
+@keyframes made {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes social {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+@utility animate-social {
+
+    animation: social .7s ease-out 5.8s forwards;
+
+}
+
+
+@utility animate-made {
+    animation: made .8s ease-out 5s forwards;
+}
+
+
+
+@utility animate-left-line {
+    animation: leftLine .8s ease-out forwards;
+}
+
+
+
+@utility animate-bean1 {
+    animation: bean .5s ease-out 1s forwards;
+}
+
+@utility animate-bean2 {
+    animation: bean .5s ease-out 1.3s forwards;
+}
+
+@utility animate-bean3 {
+    animation: bean .5s ease-out 1.6s forwards;
+}
+
+
+
+@utility animate-button {
+    animation: button .8s ease-out 2.2s forwards;
+}
+
+
+
+@utility animate-right-line {
+    animation: rightLine .8s ease-out 2.8s forwards;
+}
+
+
+
+@utility animate-bean4 {
+    animation: bean .5s ease-out 3.6s forwards;
+}
+
+@utility animate-bean5 {
+    animation: bean .5s ease-out 3.9s forwards;
+}
+
+@utility animate-bean6 {
+    animation: bean .5s ease-out 4.2s forwards;
+}

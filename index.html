@@ -6,11 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ورود به سایت</title>
   <link rel="stylesheet" href="src/css/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
-<body>
-  <a href="Home Page/index.html">ورود به سایت</a>
+<body class="bg-[#191714] overflow-hidden">
 
+  <div class="relative w-screen h-screen bg-[#191714] overflow-hidden">
+
+    <!-- LEFT LINE -->
+    <div class="absolute left-0 top-[42%] md:top-[45%] h-[4px] w-[45%] bg-[#C89A6B] animate-left-line"></div>
+
+    <!-- LEFT COFFEE BEANS -->
+    <img src="src/images/coffee-bean.svg"
+      class="absolute left-[8%] md:left-[15%] top-[37%] md:top-[38%] w-7 md:w-10 animate-bean1">
+    <img src="src/images/coffee-bean.svg"
+      class="absolute left-[18%] md:left-[25%] top-[37%] md:top-[38%] w-7 md:w-10 animate-bean2">
+    <img src="src/images/coffee-bean.svg"
+      class="absolute left-[28%] md:left-[35%] top-[37%] md:top-[38%] w-7 md:w-10 animate-bean3">
+
+
+    <!-- BUTTON -->
+    <a href="./Home Page/index.html"
+      class="absolute left-1/2 top-[42%] md:top-[45%] -translate-x-1/2 -translate-y-1/2 px-6 md:px-8 py-2 md:py-3 rounded-full bg-[#C89A6B] text-[#191714] animate-button hover:bg-[#e9c9aa] hover:scale-101 z-100">
+      ورود به سایت
+    </a>
+
+
+    <!-- RIGHT LINE -->
+    <div class="absolute right-0 top-[42%] md:top-[45%] h-[4px] w-[45%] bg-[#C89A6B] opacity-0 animate-right-line">
+    </div>
+
+    <!-- RIGHT COFFEE BEANS -->
+    <img src="src/images/coffee-bean.svg"
+      class="absolute right-[28%] md:right-[35%] top-[44%] md:top-[48%] w-7 md:w-10 animate-bean4">
+    <img src="src/images/coffee-bean.svg"
+      class="absolute right-[18%] md:right-[25%] top-[44%] md:top-[48%] w-7 md:w-10 animate-bean5">
+    <img src="src/images/coffee-bean.svg"
+      class="absolute right-[8%] md:right-[15%] top-[44%] md:top-[48%] w-7 md:w-10 animate-bean6">
+
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-made">
+      <p class="text-[#C89A6B] text-xs md:text-sm tracking-widest italic font-serif">
+        Made by RosaRaad
+      </p>
+    </div>
+
+    <!-- Social Icons -->
+
+    <div class="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-3 text-[#C89A6B] text-lg md:text-xl animate-social">
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/rosa-raad/" target="_blank">
+        <i class="fa-brands fa-linkedin hover:text-[#e9c9aa] hover:scale-110 transition"></i>
+      </a>
+
+
+      <!-- GitHub -->
+      <a href="https://github.com/rosaraad" target="_blank">
+        <i class="fa-brands fa-github hover:text-[#e9c9aa] hover:scale-110 transition"></i>
+      </a>
+
+    </div>
+  </div>
 </body>
 
 </html>
