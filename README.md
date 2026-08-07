@@ -14,7 +14,7 @@ This project focuses on translating a Figma design into a clean, modern, and res
 
 ## ✨ Features
 
-- Responsive design for desktop, tablet, and mobile devices
+- Responsive design for desktop and mobile devices
 - Modern UI based on Figma design
 - Interactive slider using Swiper.js
 - Hover effects and smooth interactions
