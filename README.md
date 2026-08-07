@@ -4,6 +4,10 @@ A responsive coffee shop website built from a Figma design using HTML, Tailwind 
 
 This project focuses on translating a Figma design into a clean, modern, and responsive user interface.
 
+## 🔗 Live Demo
+
+[Erick Cafe Website](https://rosaraad.github.io/ErickCafe/)
+
 ## 📸 Preview
 
 ![Desktop Preview](./assets/desktop-preview.png)
