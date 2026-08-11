@@ -38,3 +38,7 @@
     }
 
 }
+
+.mySwiper1 .swiper-wrapper {
+  transition-timing-function: linear !important;
+}

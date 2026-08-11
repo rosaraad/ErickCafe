@@ -840,7 +840,15 @@
           slidesPerView: 9,
           spaceBetween: 80,
         }
-      }
+      },
+      loop: true,
+
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+
+      speed: 7000,
     });
 
     const swiper3 = new Swiper('.mySwiper3', {
@@ -923,6 +931,11 @@
           slidesPerView: 3,
         }
       },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
     }); 
   </script>
 

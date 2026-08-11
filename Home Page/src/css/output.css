@@ -2196,6 +2196,9 @@
     }
   }
 }
+.mySwiper2 .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 .swiper3 {
   overflow: hidden;
   position: relative;
@@ -2216,7 +2219,7 @@
     }
   }
 }
-.mySwiper4 + .swiper-scrollbar {
+.mySwiper4+.swiper-scrollbar {
   position: relative !important;
   left: auto !important;
   right: auto !important;

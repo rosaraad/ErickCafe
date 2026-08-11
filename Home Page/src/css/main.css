@@ -52,6 +52,10 @@
     }
 }
 
+.mySwiper2 .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
 
 .swiper3 {
     overflow: hidden;
@@ -68,21 +72,21 @@
     }
 }
 
-.mySwiper4 + .swiper-scrollbar {
-  position: relative !important;
-  left: auto !important;
-  right: auto !important;
-  bottom: auto !important;
-  width: 100% !important;
-  height: 6px !important;
+.mySwiper4+.swiper-scrollbar {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    height: 6px !important;
 }
 
 .mySwiper4 .swiper-scrollbar {
-  background: #FFF8F5 !important;
+    background: #FFF8F5 !important;
 }
 
 .mySwiper4 .swiper-scrollbar-drag {
-  background: #9E624C !important;
+    background: #9E624C !important;
 }
 
 
