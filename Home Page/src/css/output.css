@@ -865,9 +865,6 @@
   .mb-0 {
     margin-bottom: 0;
   }
-  .ml-\[15px\] {
-    margin-left: 15px;
-  }
   .footer {
     @layer daisyui.l1.l2.l3 {
       display: grid;
@@ -1338,9 +1335,6 @@
   .border-b-\[\#E9E9E8\] {
     border-bottom-color: #E9E9E8;
   }
-  .\!bg-\[\#FFF8F5\] {
-    background-color: #FFF8F5 !important;
-  }
   .bg-\[\#1A1613\] {
     background-color: #1A1613;
   }
@@ -1401,9 +1395,6 @@
   }
   .pt-\[17px\] {
     padding-top: 17px;
-  }
-  .pr-\[15px\] {
-    padding-right: 15px;
   }
   .pr-\[26px\] {
     padding-right: 26px;
@@ -1751,11 +1742,6 @@
   .lg\:mt-\[240px\] {
     @media (width >= 64rem) {
       margin-top: 240px;
-    }
-  }
-  .lg\:ml-0 {
-    @media (width >= 64rem) {
-      margin-left: 0;
     }
   }
   .lg\:block {
@@ -2135,11 +2121,6 @@
   .lg\:pt-0 {
     @media (width >= 64rem) {
       padding-top: 0;
-    }
-  }
-  .lg\:pr-0 {
-    @media (width >= 64rem) {
-      padding-right: 0;
     }
   }
   .lg\:pl-\[20px\] {
