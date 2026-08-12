@@ -30,3 +30,9 @@ This project focuses on translating a Figma design into a clean, modern, and res
 - Tailwind CSS
 - DaisyUI
 - Swiper.js
+
+## 👩‍💻 Author
+
+**Rosa Raad**
+
+[GitHub](https://github.com/rosaraad)
