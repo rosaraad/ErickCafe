@@ -1,4 +1,4 @@
-# ☕ Coffee Shop Website
+# ☕ ErikCafe - Coffee Shop Website
 
 A responsive coffee shop website built from a Figma design using HTML, Tailwind CSS, DaisyUI, and Swiper.js.
 
